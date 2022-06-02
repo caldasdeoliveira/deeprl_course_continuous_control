@@ -7,7 +7,7 @@ git submodule update --init
 
 # Automated error correction in Value-based-methods repo. Torch is set to 0.4.0 which causes an error
 sed -i '' -E "s/torch==([0-9]+\.[0-9]+\.[0-9]+)/torch==1.4.0/g" Value-based-methods/python/requirements.txt
-sed -i '' -E "s/tensorflow==([0-9]+\.[0-9]+\.[0-9]+)/tensorflow==2.2.0/g" Value-based-methods/python/requirements.txt
+sed -i '' -E "s/tensorflow==([0-9]+\.[0-9]+\.[0-9]+)/tensorflow/g" Value-based-methods/python/requirements.txt
 
 conda init $(basename $SHELL)
 
