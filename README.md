@@ -1,5 +1,6 @@
 # Udacity Deep Reinforcement Learning course - Project 1: Continuous control
 
+![my_reacher_demo](my_reacher_demo.gif)
 
 This repository contains my solution for the second project of Udacity's course on Reinforcement Learning. The scenario's goal is to control a double-jointed arm keeping the tip on a moving target.
 ## Contents
@@ -47,3 +48,13 @@ Version 2: Twenty (20) Agents
 In this environment, a double-jointed arm can move to target locations. A reward of +0.1 is provided for each step that the agent's hand is in the goal location. Thus, the goal of your agent is to maintain its position at the target location for as many time steps as possible.
 
 The observation space consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector should be a number between -1 and 1.
+
+## Training and report
+
+The training code can be found in `train.py`. This is a jupyter notebook created with [jupytext](https://github.com/mwouts/jupytext#:~:text=Jupytext%20is%20a%20plugin%20for,Scripts%20in%20many%20languages.) so it can be opened either as a notebook or used as a script. 
+
+The final report can be found in `report.ipynb` and is a regular notebook as required for the delivery of the project.
+
+## Author
+
+Diogo Oliveira
