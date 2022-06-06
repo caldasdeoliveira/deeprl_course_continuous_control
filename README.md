@@ -1,4 +1,4 @@
-# Udacity Deep Reinforcement Learning course - Project 1: Continuous control
+# Udacity Deep Reinforcement Learning course - Project 2: Continuous control
 
 ![my_reacher_demo](my_reacher_demo.gif)
 
